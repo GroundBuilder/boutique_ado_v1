@@ -82,3 +82,6 @@ os.environ["CLOUDINARY_URL"] = "cloudinary://************************"
 A Django model defines the fields and data behaviour's of the structured database.Therefore I would say that changing the field names alone of an existing walkthrough project model is not custom.What is custom is changing the field     types, options and relationships of an existing walkthrough project model. Also custom is creating a new model for the students project requirements where the field names, types options and relationships are appropriate for the user story. I hope that is clearer.
 
 <https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+ECOMM_PAGPPF+2021_Q2/courseware/c38cb7ad50e9443dbd94f4cef3fed1ae/0b467723b3f54a5db85c975fdf67116d/>
+
+
+git commit -m "Add products views and templates"
