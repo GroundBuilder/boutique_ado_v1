@@ -64,6 +64,7 @@ pip3 freeze > requirements.txt <br>
 
 python3 manage.py makemigrations --dry-run <br>
 python3 manage.py showmigrations <br>
+python3 manage.py migrate --plan <br>
 python3 manage.py makemigrations <br>
 python3 manage.py migrate <br>
 python3 manage.py runserver <br>
