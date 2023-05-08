@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-_(35bt1@_9_jx)+c1k5@1e2wmu7tnj=i2ve(ou!*oe-ehsrd4s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-groundbuilder-boutique-a-br7wjfbjlg.us2.codeanyapp.com', ]
+ALLOWED_HOSTS = [
+    '8000-groundbuilder-boutique-a-br7wjfbjlg.us2.codeanyapp.com', ]
 
 
 # Application definition
@@ -78,6 +79,9 @@ TEMPLATES = [
         },
     },
 ]
+
+# Required cause of gitpod
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`
@@ -162,4 +166,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
-
