@@ -29,7 +29,7 @@
                     <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
                 </div>
             </div>
-            {% endfor %}
+            {% endif %}
         </div>
         <div class="row">
             <div class="col">
@@ -52,6 +52,7 @@
                 </a>
             </div>
         </div>
+        {% endfor %}
         {% endif %}
     </div>
 </div>
